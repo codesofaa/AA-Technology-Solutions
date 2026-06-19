@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AA Technology Solutions provides laptop and PC repair, software installation, IT support, Canva design, and simple websites in San Fernando, Pampanga." />
+  <title>AA Technology Solutions | Hardware • Software • Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="brand" aria-label="AA Technology Solutions Home">
+        <span class="brand-mark">AA</span>
+        <span class="brand-text">Technology Solutions</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#rates">Rates</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Book Service</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">San Agustin • City of San Fernando, Pampanga</p>
+          <h1>Reliable tech help for laptops, PCs, software, and small business websites.</h1>
+          <p class="hero-text">
+            AA Technology Solutions provides affordable hardware and software support for students, home users, offices, barangays, and small businesses around Pampanga.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Book a Service</a>
+            <a href="#rates" class="btn btn-secondary">View Starting Rates</a>
+          </div>
+          <div class="trust-row" aria-label="Highlights">
+            <span>✅ Weekend Schedule</span>
+            <span>✅ Home Service Available</span>
+            <span>✅ Hardware + Software</span>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Featured services card">
+          <div class="status-pill">Now Accepting Clients</div>
+          <h2>Quick Services</h2>
+          <ul class="quick-list">
+            <li><span>Windows + Office Setup</span><strong>from ₱800</strong></li>
+            <li><span>Laptop Cleaning + Repaste</span><strong>from ₱1,000</strong></li>
+            <li><span>SSD/RAM Upgrade Labor</span><strong>from ₱300</strong></li>
+            <li><span>Simple Website Landing Page</span><strong>from ₱3,000</strong></li>
+          </ul>
+          <p class="small-note">Rates may change depending on device condition, location, required parts, and client request.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What we do</p>
+          <h2>Hardware, software, design, and web solutions</h2>
+          <p>Practical tech services for everyday computer problems, simple designs, and small online presence needs.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="feature-card">
+            <div class="feature-icon">💻</div>
+            <h3>PC & Laptop Repair</h3>
+            <p>Cleaning, repaste, tune-up, SSD/RAM upgrades, troubleshooting, Windows reinstall, and performance improvement.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🧰</div>
+            <h3>Software & IT Support</h3>
+            <p>Driver installation, software setup, virus removal, printer setup, email setup, and basic networking assistance.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>Canva & Layout Design</h3>
+            <p>Clean Facebook posts, tarpaulin layouts, business posters, invitations, certificates, and resume designs.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🌐</div>
+            <h3>Simple Websites</h3>
+            <p>Landing pages, portfolio sites, small business pages, and beginner-friendly websites deployable on Vercel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="rates">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Transparent starting prices</p>
+            <h2>Service rates</h2>
+          </div>
+          <p>These are starting rates only. Final price depends on diagnosis, travel, parts, and the exact client request.</p>
+        </div>
+
+        <div class="filter-row" aria-label="Service category filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="repair">PC/Laptop</button>
+          <button class="filter-btn" data-filter="support">IT Support</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+        </div>
+
+        <div class="rates-grid" id="ratesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About AA Technology Solutions</p>
+          <h2>Local tech help built on hands-on IT support experience.</h2>
+          <p>
+            AA Technology Solutions is a small local service brand focused on reliable, affordable, and beginner-friendly technology support. The goal is to help people solve computer problems without confusing technical terms.
+          </p>
+          <p>
+            Services are available mostly on weekends and selected schedules. Home service may be arranged around San Fernando, Angeles, and nearby Pampanga areas.
+          </p>
+        </div>
+        <div class="about-box">
+          <h3>Best for</h3>
+          <ul class="check-list">
+            <li>Students with slow laptops</li>
+            <li>Home users needing Windows/software setup</li>
+            <li>Small businesses needing basic IT support</li>
+            <li>Barangay or office users needing printer/network help</li>
+            <li>Owners needing simple designs or a clean website</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="process">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Simple process</p>
+          <h2>How booking works</h2>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card"><span>01</span><h3>Send your issue</h3><p>Tell us your device model, problem, and preferred schedule through the booking form.</p></article>
+          <article class="step-card"><span>02</span><h3>Get an estimate</h3><p>We provide starting rate, possible parts needed, and home service fee if applicable.</p></article>
+          <article class="step-card"><span>03</span><h3>Repair or setup</h3><p>We troubleshoot, clean, install, configure, or design based on the agreed service.</p></article>
+          <article class="step-card"><span>04</span><h3>Test before release</h3><p>We test the device or output and share basic care tips after service.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Common questions</p>
+          <h2>FAQ</h2>
+        </div>
+        <div class="faq-list">
+          <button class="faq-item" aria-expanded="false">
+            <span>Do you offer home service?</span>
+            <p>Yes. Home service may be available around San Fernando, Angeles, and nearby areas. A small transportation fee may apply.</p>
+          </button>
+          <button class="faq-item" aria-expanded="false">
+            <span>Do prices include parts?</span>
+            <p>No. Listed rates are labor/service starting prices unless stated. SSD, RAM, thermal paste, keyboards, batteries, and other parts are quoted separately.</p>
+          </button>
+          <button class="faq-item" aria-expanded="false">
+            <span>Can you recover files?</span>
+            <p>Basic file backup may be available if the drive is still readable. Severe data recovery cases should be handled by specialized recovery services.</p>
+          </button>
+          <button class="faq-item" aria-expanded="false">
+            <span>Can you make websites?</span>
+            <p>Yes. Simple landing pages, portfolio websites, and small business websites are available. Complex systems are quoted separately.</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Book a service</p>
+          <h2>Tell us what you need fixed or built.</h2>
+          <p>
+            Fill out the form and it can send the booking request directly to your email after you connect your Web3Forms access key.
+          </p>
+          <div class="contact-cards">
+            <a class="contact-card" href="tel:+639000000000">📞 0900 000 0000</a>
+            <a class="contact-card" href="mailto:patiuaaron@gmail.com">✉️ patiuaaron@gmail.com</a>
+            <a class="contact-card" href="https://facebook.com/" target="_blank" rel="noopener">💬 Facebook Page</a>
+          </div>
+          <div class="setup-note">
+            <strong>Email setup:</strong> Get a Web3Forms access key, paste it inside <code>script.js</code>, then deploy to Vercel.
+          </div>
+        </div>
+
+        <form class="quote-form" id="quoteForm">
+          <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="subject" value="New Booking Request - AA Technology Solutions">
+          <input type="hidden" name="from_name" value="AA Technology Solutions Website">
+
+          <label>
+            Full Name
+            <input type="text" id="clientName" name="name" placeholder="Juan Dela Cruz" required />
+          </label>
+          <label>
+            Contact Number or Facebook Name
+            <input type="text" id="clientContact" name="contact" placeholder="09xx xxx xxxx / Facebook name" required />
+          </label>
+          <label>
+            Service Needed
+            <select id="clientService" name="service" required>
+              <option value="">Select service</option>
+              <option>Windows Installation</option>
+              <option>Laptop Cleaning + Repaste</option>
+              <option>SSD/RAM Upgrade</option>
+              <option>Software Installation</option>
+              <option>Virus Removal / Tune-up</option>
+              <option>Printer / Network Setup</option>
+              <option>Canva Layout Design</option>
+              <option>Simple Website</option>
+              <option>Other IT Support</option>
+            </select>
+          </label>
+          <label>
+            Device / Request Details
+            <textarea id="clientDetails" name="message" rows="5" placeholder="Example: Acer laptop, slow boot, needs cleaning and Windows reinstall." required></textarea>
+          </label>
+          <label>
+            Preferred Schedule
+            <input type="text" id="clientSchedule" name="schedule" placeholder="Example: Saturday morning" />
+          </label>
+          <button class="btn btn-primary full-btn" id="submitButton" type="submit">Send Booking Request</button>
+          <p class="form-note" id="formNote">After setup, this form sends directly to your email. Until then, it will show setup instructions.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="brand footer-brand"><span class="brand-mark">AA</span><span class="brand-text">Technology Solutions</span></a>
+        <p>Hardware • Software • Design • Web Solutions</p>
+      </div>
+      <div>
+        <p>📍 San Agustin, City of San Fernando, Pampanga</p>
+        <p>© <span id="year"></span> AA Technology Solutions. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="message-modal" id="messageModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close message">×</button>
+      <h2 id="modalTitle">Booking status</h2>
+      <p id="modalDescription">Your message status will appear here.</p>
+      <textarea id="generatedMessage" rows="9" readonly></textarea>
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="copyMessage">Copy Message</button>
+        <a class="btn btn-secondary" id="emailMessage" href="mailto:patiuaaron@gmail.com">Send via Email</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
