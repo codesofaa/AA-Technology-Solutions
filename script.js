@@ -6,7 +6,7 @@
   3. Replace YOUR_WEB3FORMS_ACCESS_KEY below with your real access key.
 */
 
-const WEB3FORMS_ACCESS_KEY = "c8ac9679-32c2-4fae-9468-a361c893c6c0Y";
+const WEB3FORMS_ACCESS_KEY = "9061cca5-9e23-4f1a-83b4-32702bc6cd90";
 const BUSINESS_EMAIL = "codesofaa@gmail.com";
 const BUSINESS_NAME = "AA Technology Solutions";
 
