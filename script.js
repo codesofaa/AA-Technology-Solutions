@@ -246,7 +246,7 @@ quoteForm.addEventListener("submit", async event => {
 });
 
 function isWeb3FormsConfigured() {
-  return WEB3FORMS_ACCESS_KEY && WEB3FORMS_ACCESS_KEY !== "9061cca5-9e23-4f1a-83b4-32702bc6cd90";
+  return WEB3FORMS_ACCESS_KEY && WEB3FORMS_ACCESS_KEY !== "YOUR_WEB3FORMS_ACCESS_KEY";
 }
 
 function showModal(title, description, message) {
